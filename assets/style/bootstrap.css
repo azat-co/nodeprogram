@@ -112,10 +112,11 @@
 }
 /*
 *   PAGE | WORK
-*/.portfolio-items {
+*/
+.portfolio-items {
   /*
-    * Filtering configuration
-    */
+  * Filtering configuration
+  */
 }
 .portfolio-items a {
   position: relative;
@@ -241,7 +242,8 @@
 }
 /*
 *   PAGE | FEATURES
-*/.page-features {
+*/
+.page-features {
   position: relative;
   background: url(../images/pages/features/q_bck.jpg) 50% 0 no-repeat fixed;
   -webkit-background-size: cover;
@@ -760,7 +762,8 @@
 }
 /*
 *   PAGE | CLIENTS
-*/.page-clients .row-fluid {
+*/
+.page-clients .row-fluid {
   padding-bottom: 40px;
   padding-top: 15px;
 }
@@ -866,7 +869,8 @@
 }
 /*
 *   FOOTER
-*/.pages footer {
+*/
+.pages footer {
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: center;
@@ -1605,8 +1609,8 @@ a:hover {
   width: 975px;
 }
 .span12 {
-  width: 975px;
-  text-align: center;
+  width: 975px; 
+
 }
 .span11 {
   width: 892px;
