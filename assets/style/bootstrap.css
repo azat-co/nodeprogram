@@ -1554,7 +1554,7 @@ body {
 }
 a {
   color: #4e808e;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 a:hover {
   color: #33535d;
@@ -1610,7 +1610,7 @@ a:hover {
   width: 975px;
 }
 .span12 {
-  width: 975px; 
+  width: 975px;
 
 }
 .span11 {
@@ -7653,6 +7653,12 @@ a.badge:focus {
   }
   .smallFontBy08 {
     font-size: 1em;
+  }
+  #welcome-messages h1 {
+    color: #4E808E;
+  }
+  #page-welcome p {
+    color: #4E808E;
   }
 }
 @media (max-width: 480px) {
