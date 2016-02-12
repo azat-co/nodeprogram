@@ -7052,6 +7052,14 @@ a.badge:focus {
     margin-left: 0;
   }
 }
+@media (max-width: 979px) {
+  #welcome-messages h1 {
+    color: #4E808E;
+  }
+  #page-welcome p {
+    color: #4E808E;
+  }
+}
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
@@ -7653,12 +7661,6 @@ a.badge:focus {
   }
   .smallFontBy08 {
     font-size: 1em;
-  }
-  #welcome-messages h1 {
-    color: #4E808E;
-  }
-  #page-welcome p {
-    color: #4E808E;
   }
 }
 @media (max-width: 480px) {
