@@ -411,22 +411,8 @@
                               <li>Node Package Manager</li>
                               <li>Deploying &ldquo;Hello World&rdquo; to PaaS</li>
                               <li>Deploying to Heroku</li>
-                              <li>Message Board: Run-Time Memory Version</li>
+                              <li>Message Board REST API: Run-Time Memory Version</li>
                               <li>Test Case for Message Board</li>
-                            </ul>
-                          </li>
-                        </ul>
-                        <h2>MongoDB</h2>
-                        <ul class="text-left">
-                          <li>MongoDB and NoSQL
-                            <ul class="text-left">
-                              <li>NoSQL and CAP Theorem</li>
-                              <li>MongoDB Database</li>
-                              <li>MongoDB shell (mongo)</li>
-                              <li>MongoDB Native Driver (mongodb)</li>
-                              <li>MongoDB on Heroku: MongoHQ</li>
-                              <li>MongoDB BSON data types</li>
-                              <li>Message Board: MongoDB Version</li>
                             </ul>
                           </li>
                         </ul>
@@ -441,8 +427,33 @@
                             <li>Main Middleware</li>
                             <li>Jade Template Engine</li>
                             <li>Stylus CSS library</li>
+                            <li>RESTful API</li>
+                          </ul>
+                        </ul>
+                        <ul class="text-left">
+                          <li>Express.js API</li>
+                          <ul class="text-left">
+                            <li>GET, POST, PUT and DELETE</li>
+                            <li>Request</li>
+                            <li>Response</li>
+                            <li>Error Handlers</li>
+                            <li>Scaling</li>
                             <li>Mocha for TDD/BDD</li>
                           </ul>
+                        </ul>
+                        <h2>MongoDB</h2>
+                        <ul class="text-left">
+                          <li>MongoDB and NoSQL
+                            <ul class="text-left">
+                              <li>NoSQL and CAP Theorem</li>
+                              <li>MongoDB Database</li>
+                              <li>MongoDB shell (mongo)</li>
+                              <li>MongoDB Native Driver (mongodb)</li>
+                              <li>MongoDB on Heroku: MongoHQ</li>
+                              <li>MongoDB BSON data types</li>
+                              <li>Message Board REST API: MongoDB Version</li>
+                            </ul>
+                          </li>
                         </ul>
                         <h2>Meteor</h2>
                         <ul class="text-left">
@@ -456,67 +467,6 @@
                             <li>Jade Template Engine</li>
                             <li>Stylus CSS library</li>
                             <li>Mocha for TDD/BDD</li>
-                          </ul>
-                        </ul>
-                        <h2>Electives</h2>
-                        <ul class="text-left">
-                          <li>Front-end Integration (Optional)</li>
-                          <ul class="text-left">
-                            <li>Introduction to Backbone.js</li>
-                            <li>REST API Architecture</li>
-                            <li>Integration with Node.js</li>
-                            <li>Isomorphism</li>
-                            <li>React.js</li>
-                          </ul>
-                        </ul>
-                        <ul class="text-left">
-                          <li>Mongoose ODM (Optional)</li>
-                          <ul class="text-left">
-                            <li>Schema</li>
-                            <li>Model</li>
-                            <li>Validation</li>
-                            <li>Hooks</li>
-                            <li>Virtuals</li>
-                          </ul>
-                        </ul>
-                        <ul class="text-left">
-                          <li>DevOps (Optional)</li>
-                          <ul class="text-left">
-                            <li>Deployment</li>
-                            <li>Scaling</li>
-                            <li>Monitoring</li>
-                            <li>Profiling</li>
-                            <li>
-                              Heroku
-                            </li>
-                            <li>
-                              AWS
-                            </li>
-                          </ul>
-                        </ul>
-                        <ul class="text-left">
-                          <li>Advanced Track (Optional)</li>
-                          <ul class="text-left">
-                            <li>Error Handling</li>
-                            <li>Streams and Buffers</li>
-                            <li>Async Patterns</li>
-                            <li>Tools</li>
-                            <li>
-                              Testing, CI
-                            </li>
-                            <li>Frameworks Overview: Hapi, Meteor, LoopBack, Sails.js</li>
-                          </ul>
-                        </ul>
-                        <ul class="text-left">
-                          <li>JavaScript Overview (Optional)</li>
-                          <ul class="text-left">
-                            <li>
-                              Language
-                            </li>
-                            <li>Data Types</li>
-                            <li>this</li>
-                            <li>Classes and Inheritance</li>
-                            <li>Hooks</li>
                           </ul>
                         </ul>
                         <h2>React.js</h2>
@@ -563,6 +513,60 @@
                             <li>Isomorphic React.js with Express.js</li>
                           </ul>
                         </ul>
+                        <h2>Electives</h2>
+                        <ul class="text-left">
+                          <li>Front-end Integration (Optional)</li>
+                          <ul class="text-left">
+                            <li>Introduction to Backbone.js</li>
+                            <li>REST API Architecture</li>
+                            <li>Integration with Node.js</li>
+                            <li>Isomorphism</li>
+                            <li>React.js</li>
+                          </ul>
+                        </ul>
+                        <ul class="text-left">
+                          <li>Mongoose ODM (Optional)</li>
+                          <ul class="text-left">
+                            <li>Schema</li>
+                            <li>Model</li>
+                            <li>Validation</li>
+                            <li>Hooks</li>
+                            <li>Virtuals</li>
+                          </ul>
+                        </ul>
+                        <ul class="text-left">
+                          <li>DevOps (Optional)</li>
+                          <ul class="text-left">
+                            <li>Deployment</li>
+                            <li>Scaling</li>
+                            <li>Monitoring</li>
+                            <li>Profiling</li>
+                            <li>Heroku</li>
+                            <li>AWS</li>
+                          </ul>
+                        </ul>
+                        <ul class="text-left">
+                          <li>Advanced Track (Optional)</li>
+                          <ul class="text-left">
+                            <li>Error Handling</li>
+                            <li>Streams and Buffers</li>
+                            <li>Async Patterns</li>
+                            <li>Tools</li>
+                            <li>Testing, CI</li>
+                            <li>Frameworks Overview: Hapi, Meteor, LoopBack, Sails.js</li>
+                          </ul>
+                        </ul>
+                        <ul class="text-left">
+                          <li>JavaScript Overview (Optional)</li>
+                          <ul class="text-left">
+                            <li>Language</li>
+                            <li>Data Types</li>
+                            <li>this</li>
+                            <li>Classes and Inheritance</li>
+                            <li>Hooks</li>
+                          </ul>
+                        </ul>
+
                         <h2>NodeProgram.com Electives</h2>
                         <p class="text-left">NodeProgram.com is a customized learning experience. We want you to tell us what questions do you have to tailor our program to your needs. Also we've developed elective project paths:</p>
                         <div>&nbsp;</div>
@@ -756,8 +760,9 @@
                 <h1>F.A.Q.</h1>
                 <div class="row">
                     <div class=" text-left">
-
-
+                    <p>&nbsp;</p>
+                    <p>Q: What time does the course start and end?</p>
+                    <p>A: Typically we run the course from 9am to 5pm. Feel free to email us for more details.</p>
                     <p>&nbsp;</p>
                     <p>Q: Do you offer refunds?</p>
                     <p>A: Yes! If you're not 100% satisfied, we will refund you 100%.</p>
