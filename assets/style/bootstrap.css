@@ -1554,7 +1554,7 @@ body {
 }
 a {
   color: #4e808e;
-  text-decoration: none;
+  /*text-decoration: none;*/
 }
 a:hover {
   color: #33535d;
@@ -1610,7 +1610,7 @@ a:hover {
   width: 975px;
 }
 .span12 {
-  width: 975px; 
+  width: 975px;
 
 }
 .span11 {
@@ -6591,6 +6591,19 @@ a.badge:focus {
 .carousel-caption p {
   margin-bottom: 0;
 }
+#quote-slider .carousel-inner {
+  min-height: 145px  
+}
+@media(max-width: 600px){
+  #quote-slider .carousel-inner {
+    min-height: 152px  
+}
+  }
+ @media(max-width: 440px){
+  #quote-slider .carousel-inner {
+    min-height: 200px  
+}
+  }
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
@@ -7050,6 +7063,14 @@ a.badge:focus {
   }
   .row-fluid .thumbnails {
     margin-left: 0;
+  }
+}
+@media (max-width: 979px) {
+  #welcome-messages h1 {
+    color: #4E808E;
+  }
+  #page-welcome p {
+    color: #4E808E;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
