@@ -6591,6 +6591,19 @@ a.badge:focus {
 .carousel-caption p {
   margin-bottom: 0;
 }
+#quote-slider .carousel-inner {
+  min-height: 145px  
+}
+@media(max-width: 600px){
+  #quote-slider .carousel-inner {
+    min-height: 152px  
+}
+  }
+ @media(max-width: 440px){
+  #quote-slider .carousel-inner {
+    min-height: 200px  
+}
+  }
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
