@@ -2,3 +2,13 @@
 body div#PopupSignupForm_0 div.mc-modal {
 	top: 80px;
 }
+
+.page-curriculum .container .row h2 {
+  text-align: left;
+}
+.page-curriculum .container .row div.curriculum ul {
+  margin-left: 60px
+}
+.page-curriculum .container .row div.curriculum {
+  margin-left: 80px;
+}
