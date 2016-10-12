@@ -12,3 +12,9 @@ body div#PopupSignupForm_0 div.mc-modal {
 .page-curriculum .container .row div.curriculum {
   margin-left: 80px;
 }
+
+#clock {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
